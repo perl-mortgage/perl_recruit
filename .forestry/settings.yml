@@ -28,8 +28,9 @@ sections:
 - type: directory
   path: _data
   label: Utilities
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".yml"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
