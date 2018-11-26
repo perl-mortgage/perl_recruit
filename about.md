@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blocks
 title: About
 permalink: /about/
 ---

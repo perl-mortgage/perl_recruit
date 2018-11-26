@@ -5,18 +5,7 @@
     <nav class="ml-auto">
 			<ul class="menu-secondary-nav">
 				<li>
-          {% if page.phone_number %}
-            <a href="tel:{{ page.phone_number  | remove: '.'  }}">{{ page.phone_number }}</a>
-          {% else %}
-            <a href="tel:{{ site.phone_number  | remove: '.'  }}">{{ site.phone_number }}</a>
-          {% endif %}
-        </li>
-				<li>
-          {% if page.apply_link %}
-            <a href="{{ page.apply_link }}" class="btn btn-light" target="_blank">Apply Now</a>
-          {% else %}
-            <a href="{{ site.apply_link }}" class="btn btn-light" target="_blank">Apply Now</a>
-          {% endif %}
+          <a href="{{ page.apply_link }}" class="btn btn-light" target="_blank">Get Started</a>
         </li>
 			</ul>
 		</nav> <!-- menu-nav -->

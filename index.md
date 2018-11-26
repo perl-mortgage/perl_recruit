@@ -30,13 +30,5 @@ page_sections:
   employees: 400+
   states: 35
   link: Read more about who we are
-- template: 
-  block: 
-  id: Support
-  title: Support
-- template: 
-  block: 
-  id: Culture
-  title: Culture
 
 ---

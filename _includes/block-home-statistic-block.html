@@ -1,47 +1,45 @@
 <section class="block-home-statistic-block" id="{{ section.id }}">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 py-xl mt-neg-100 bg-secondary d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-10 col-sm-12 ml-auto mr-auto">
-                                {{ section.left_side}}
-                            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 py-xl mt-neg-100 bg-secondary d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-sm-12 ml-auto mr-auto">
+                            {{ section.left_side}}
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 pt-md pb-lg d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                    {{ section.right_side }}
-                            </div>
+            </div>
+            <div class="col-md-6 col-sm-12 pt-md pb-lg d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                                {{ section.right_side }}
                         </div>
-                        <div class="row py-sm">
-                            <div class="col-4">
-                                <p class="h2 ff-body fc-md-gray">{{ section.locations }}</p>
-                                <h6>Locations</h6>
-                            </div>
-                            <div class="col-4">
-                                <p class="h2 ff-body fc-md-gray">{{ section.employees }}</p>
-                                <h6>Employees</h6>
-                            </div>
-                            <div class="col-4">
-                                <p class="h2 ff-body fc-md-gray">{{ section.states }}</p>
-                                <h6>States</h6>
-                            </div>
-                        </div>
-                        {% if section.link != 'null' %}
-                        <div class="row">
-                            <div class="col-12">
-                                <p>
-                                    <a href="{{ section.link_url }}" class="icon-link icon-arrow-link">{{ section.link }}</a>
-                                </p>
-                            </div>
-                        </div>
-                        {% endif %}
                     </div>
+                    <div class="row py-sm">
+                        <div class="col-4">
+                            <p class="h2 ff-body fc-secondary m-0"><strong>{{ section.locations }}</strong></p>
+                            <h6>Locations</h6>
+                        </div>
+                        <div class="col-4">
+                            <p class="h2 ff-body fc-secondary m-0"><strong>{{ section.employees }}</strong></p>
+                            <h6>Employees</h6>
+                        </div>
+                        <div class="col-4">
+                            <p class="h2 ff-body fc-secondary m-0"><strong>{{ section.states }}</strong></p>
+                            <h6>States</h6>
+                        </div>
+                    </div>
+                    {% if section.link != 'null' %}
+                    <div class="row">
+                        <div class="col-12">
+                            <p>
+                                <a href="{{ section.link_url }}" class="icon-link icon-arrow-link">{{ section.link }}</a>
+                            </p>
+                        </div>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>

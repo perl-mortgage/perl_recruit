@@ -9763,7 +9763,7 @@ body {
   font-family: "ATC Arquette", "Montserrat", sans-serif;
   color: #2d2d2d;
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -9771,7 +9771,7 @@ body {
 
 hr {
   width: 100px;
-  border-top: 2px solid #f29924;
+  border-top: 2px solid #F38B00;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 0;
@@ -9841,38 +9841,47 @@ p {
   font-family: "ATC Arquette", "Montserrat", sans-serif;
   color: #2d2d2d;
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.4;
+  margin-bottom: 1rem;
 }
 
 a {
-  color: #f29924;
+  color: #F38B00;
   transition: 0.3s ease-in-out;
 }
 a:hover {
   text-decoration: none;
-  color: rgba(242, 153, 36, 0.8);
+  color: rgba(243, 139, 0, 0.8);
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+p > a {
+  font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5 {
   font-weight: 400;
   font-family: "Playfair Display", serif;
 }
+h1 + h1, h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6, h1 + .h1, h1 + .h2, h1 + .h3, h1 + .h4, h1 + .h5, h1 + .h6, h2 + h1, h2 + h2, h2 + h3, h2 + h4, h2 + h5, h2 + h6, h2 + .h1, h2 + .h2, h2 + .h3, h2 + .h4, h2 + .h5, h2 + .h6, h3 + h1, h3 + h2, h3 + h3, h3 + h4, h3 + h5, h3 + h6, h3 + .h1, h3 + .h2, h3 + .h3, h3 + .h4, h3 + .h5, h3 + .h6, h4 + h1, h4 + h2, h4 + h3, h4 + h4, h4 + h5, h4 + h6, h4 + .h1, h4 + .h2, h4 + .h3, h4 + .h4, h4 + .h5, h4 + .h6, h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h5, h5 + h6, h5 + .h1, h5 + .h2, h5 + .h3, h5 + .h4, h5 + .h5, h5 + .h6, h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6, h6 + .h1, h6 + .h2, h6 + .h3, h6 + .h4, h6 + .h5, h6 + .h6, .h1 + h1, .h1 + h2, .h1 + h3, .h1 + h4, .h1 + h5, .h1 + h6, .h1 + .h1, .h1 + .h2, .h1 + .h3, .h1 + .h4, .h1 + .h5, .h1 + .h6, .h2 + h1, .h2 + h2, .h2 + h3, .h2 + h4, .h2 + h5, .h2 + h6, .h2 + .h1, .h2 + .h2, .h2 + .h3, .h2 + .h4, .h2 + .h5, .h2 + .h6, .h3 + h1, .h3 + h2, .h3 + h3, .h3 + h4, .h3 + h5, .h3 + h6, .h3 + .h1, .h3 + .h2, .h3 + .h3, .h3 + .h4, .h3 + .h5, .h3 + .h6, .h4 + h1, .h4 + h2, .h4 + h3, .h4 + h4, .h4 + h5, .h4 + h6, .h4 + .h1, .h4 + .h2, .h4 + .h3, .h4 + .h4, .h4 + .h5, .h4 + .h6, .h5 + h1, .h5 + h2, .h5 + h3, .h5 + h4, .h5 + h5, .h5 + h6, .h5 + .h1, .h5 + .h2, .h5 + .h3, .h5 + .h4, .h5 + .h5, .h5 + .h6 {
+  font-family: "ATC Arquette", "Montserrat", sans-serif;
+  color: #F38B00;
+}
 
 h1, .h1 {
-  color: #506671;
+  color: #072930;
   font-size: 44px;
 }
 
 h2, .h2 {
-  color: #506671;
+  color: #072930;
 }
 
 h3, .h3 {
-  color: #506671;
+  color: #072930;
 }
 
 h4, .h4 {
-  color: #f29924;
+  color: #F38B00;
 }
 
 h5, .h5 {
@@ -9881,7 +9890,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-family: "ATC Arquette", "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 10px;
@@ -9889,14 +9898,14 @@ h6, .h6 {
 }
 
 h1 em, h2 em, h3 em, .h1 em, .h2 em, .h3 em {
-  color: #f29924;
+  color: #F38B00;
   font-weight: 400;
 }
 
 .display-1, .display-2, .display-3, .display-4 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  color: #506671;
+  color: #072930;
 }
 
 @media screen and (max-width: 992px) {
@@ -9917,11 +9926,11 @@ h1 em, h2 em, h3 em, .h1 em, .h2 em, .h3 em {
   }
 }
 .fc-primary {
-  color: #f29924 !important;
+  color: #F38B00 !important;
 }
 
 .fc-secondary {
-  color: #506671 !important;
+  color: #072930 !important;
 }
 
 .fc-black {
@@ -10002,7 +10011,7 @@ h1 em, h2 em, h3 em, .h1 em, .h2 em, .h3 em {
 .section-title h1:after, .section-title h2:after, .section-title h3:after {
   content: "";
   position: absolute;
-  background-color: #f29924;
+  background-color: #F38B00;
   height: 2px;
   width: 100px;
   bottom: -25px;
@@ -10011,7 +10020,6 @@ h1 em, h2 em, h3 em, .h1 em, .h2 em, .h3 em {
 }
 
 .icon-link {
-  font-weight: 700;
   text-transform: uppercase;
   position: relative;
   transition: 0.3s ease-in-out;
@@ -10023,6 +10031,10 @@ h1 em, h2 em, h3 em, .h1 em, .h2 em, .h3 em {
   font-size: 13px;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  transition: 0.3s ease-in-out;
+}
+.icon-link:hover:after {
+  right: -35px;
 }
 
 .icon-arrow-link:after {
@@ -10278,7 +10290,7 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #506671;
+  background: #072930;
   height: 50px;
   width: 100%;
   z-index: 3;
@@ -10310,7 +10322,7 @@ html, body {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -80px;
-    background-color: #506671;
+    background-color: #072930;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
@@ -10327,7 +10339,7 @@ html, body {
 
   .menu-header.menu-is-open {
     /* add a background color to the header when the navigation is open */
-    background-color: rgba(80, 102, 113, 0.96);
+    background-color: rgba(7, 41, 48, 0.96);
   }
 }
 .menu-logo {
@@ -10358,7 +10370,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 50px;
-  background-color: #506671;
+  background-color: #072930;
 }
 
 .menu-primary-nav-trigger .menu-menu-text {
@@ -10384,7 +10396,7 @@ html, body {
   transform: translateX(-50%) translateY(-50%);
   width: 18px;
   height: 2px;
-  background-color: #f29924;
+  background-color: #F38B00;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -10396,7 +10408,7 @@ html, body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #f29924;
+  background-color: #F38B00;
   right: 0;
   -webkit-transition: -webkit-transform 0.3s, top 0.3s, background-color 0s;
   -moz-transition: -moz-transform 0.3s, top 0.3s, background-color 0s;
@@ -10475,7 +10487,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(80, 102, 113, 0.96);
+  background: rgba(7, 41, 48, 0.96);
   z-index: 2;
   text-align: center;
   padding: 100px 0;
@@ -10519,7 +10531,7 @@ html, body {
   width: 0%;
   content: "";
   height: 2px;
-  background-color: #f29924;
+  background-color: #F38B00;
   transition: 0.3s ease-in-out;
 }
 .menu-primary-nav a:hover {
@@ -10532,7 +10544,7 @@ html, body {
   width: 100%;
   content: "";
   height: 2px;
-  background-color: #f29924;
+  background-color: #F38B00;
 }
 
 .menu-primary-nav .menu-social {
@@ -10754,7 +10766,7 @@ Scrolling Navigation
   width: 0%;
   height: 1px;
   content: "";
-  background-color: #f29924;
+  background-color: #F38B00;
   transition: 0.2s ease-in;
 }
 .scrolling-navigation #menu-center ul li a .indicator .number {
@@ -10785,19 +10797,19 @@ Scrolling Navigation
   transition: 0.2s ease-in;
 }
 .scrolling-navigation #menu-center ul li a.active .indicator {
-  border-color: #f29924;
+  border-color: #F38B00;
 }
 .scrolling-navigation #menu-center ul li a.active .indicator:after {
   width: 100%;
 }
 .scrolling-navigation #menu-center ul li a.active .indicator .number {
-  border-color: #f29924;
+  border-color: #F38B00;
 }
 .scrolling-navigation #menu-center ul li a.active .indicator .number p {
-  color: #f29924;
+  color: #F38B00;
 }
 .scrolling-navigation #menu-center ul li a.active .indicator .title p {
-  color: #f29924;
+  color: #F38B00;
 }
 
 .headshot {
@@ -10805,7 +10817,7 @@ Scrolling Navigation
   height: 200px;
   width: 200px;
   margin-left: auto;
-  background-color: #f29924;
+  background-color: #F38B00;
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid #f1f1f1;
@@ -10868,14 +10880,14 @@ Buttons
 }
 
 .btn-primary {
-  color: #f29924;
+  color: #F38B00;
   background-color: transparent;
-  border-color: #f29924;
+  border-color: #F38B00;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:active:focus {
   color: #fff;
-  background-color: #f29924;
-  border-color: #f29924;
+  background-color: #F38B00;
+  border-color: #F38B00;
 }
 .btn-primary:focus, .btn-primary.focus {
   box-shadow: none !important;
@@ -10883,19 +10895,19 @@ Buttons
 }
 .btn-primary:active:focus {
   color: #fff !important;
-  background-color: #f29924 !important;
-  border-color: #f29924 !important;
+  background-color: #F38B00 !important;
+  border-color: #F38B00 !important;
 }
 
 .btn-secondary {
-  color: #506671;
+  color: #072930;
   background-color: transparent;
-  border-color: #506671;
+  border-color: #072930;
 }
 .btn-secondary:hover, .btn-secondary:active, .btn-secondary:active:focus {
   color: #fff;
-  background-color: #506671;
-  border-color: #506671;
+  background-color: #072930;
+  border-color: #072930;
 }
 .btn-secondary:focus, .btn-secondary.focus {
   box-shadow: none !important;
@@ -10903,8 +10915,8 @@ Buttons
 }
 .btn-secondary:active:focus {
   color: #fff !important;
-  background-color: #506671 !important;
-  border-color: #506671 !important;
+  background-color: #072930 !important;
+  border-color: #072930 !important;
 }
 
 .btn-success {
@@ -10993,7 +11005,7 @@ Buttons
   border-color: #f1f1f1;
 }
 .btn-light:hover, .btn-light:active, .btn-light:active:focus {
-  color: #f29924;
+  color: #F38B00;
   background-color: #f1f1f1;
   border-color: #f1f1f1;
 }
@@ -11002,7 +11014,7 @@ Buttons
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 .btn-light:active:focus {
-  color: #f29924 !important;
+  color: #F38B00 !important;
   background-color: #f1f1f1 !important;
   border-color: #f1f1f1 !important;
 }
@@ -11028,14 +11040,14 @@ Buttons
 }
 
 .btn-primary-outline {
-  color: #f29924;
+  color: #F38B00;
   background-color: transparent;
-  border-color: #f29924;
+  border-color: #F38B00;
 }
 .btn-primary-outline:hover, .btn-primary-outline:active, .btn-primary-outline:active:focus {
   color: #fff;
-  background-color: #f29924;
-  border-color: #f29924;
+  background-color: #F38B00;
+  border-color: #F38B00;
 }
 .btn-primary-outline:focus, .btn-primary-outline.focus {
   box-shadow: none !important;
@@ -11043,19 +11055,19 @@ Buttons
 }
 .btn-primary-outline:active:focus {
   color: #fff !important;
-  background-color: #f29924 !important;
-  border-color: #f29924 !important;
+  background-color: #F38B00 !important;
+  border-color: #F38B00 !important;
 }
 
 .btn-secondary-outline {
-  color: #506671;
+  color: #072930;
   background-color: transparent;
-  border-color: #506671;
+  border-color: #072930;
 }
 .btn-secondary-outline:hover, .btn-secondary-outline:active, .btn-secondary-outline:active:focus {
   color: #fff;
-  background-color: #506671;
-  border-color: #506671;
+  background-color: #072930;
+  border-color: #072930;
 }
 .btn-secondary-outline:focus, .btn-secondary-outline.focus {
   box-shadow: none !important;
@@ -11063,8 +11075,8 @@ Buttons
 }
 .btn-secondary-outline:active:focus {
   color: #fff !important;
-  background-color: #506671 !important;
-  border-color: #506671 !important;
+  background-color: #072930 !important;
+  border-color: #072930 !important;
 }
 
 .btn-success-outline {
@@ -11153,7 +11165,7 @@ Buttons
   border-color: #f1f1f1;
 }
 .btn-light-outline:hover, .btn-light-outline:active, .btn-light-outline:active:focus {
-  color: #f29924;
+  color: #F38B00;
   background-color: #f1f1f1;
   border-color: #f1f1f1;
 }
@@ -11162,7 +11174,7 @@ Buttons
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 .btn-light-outline:active:focus {
-  color: #f29924 !important;
+  color: #F38B00 !important;
   background-color: #f1f1f1 !important;
   border-color: #f1f1f1 !important;
 }
@@ -11215,7 +11227,7 @@ Buttons
 }
 
 .bg-primary {
-  background-color: #f29924 !important;
+  background-color: #F38B00 !important;
 }
 .bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4, .bg-primary h5, .bg-primary h6, .bg-primary a, .bg-primary p, .bg-primary .display-1, .bg-primary .display-2, .bg-primary .display-3, .bg-primary .display-4 {
   color: #fff;
@@ -11226,7 +11238,7 @@ Buttons
   border-color: #f1f1f1;
 }
 .bg-primary .btn-primary:hover, .bg-primary .btn-primary:active, .bg-primary .btn-primary:active:focus, .bg-primary .btn-secondary:hover, .bg-primary .btn-secondary:active, .bg-primary .btn-secondary:active:focus, .bg-primary .btn-success:hover, .bg-primary .btn-success:active, .bg-primary .btn-success:active:focus, .bg-primary .btn-danger:hover, .bg-primary .btn-danger:active, .bg-primary .btn-danger:active:focus, .bg-primary .btn-warning:hover, .bg-primary .btn-warning:active, .bg-primary .btn-warning:active:focus, .bg-primary .btn-info:hover, .bg-primary .btn-info:active, .bg-primary .btn-info:active:focus, .bg-primary .btn-light:hover, .bg-primary .btn-light:active, .bg-primary .btn-light:active:focus, .bg-primary .btn-dark:hover, .bg-primary .btn-dark:active, .bg-primary .btn-dark:active:focus, .bg-primary .btn-primary-outline:hover, .bg-primary .btn-primary-outline:active, .bg-primary .btn-primary-outline:active:focus, .bg-primary .btn-secondary-outline:hover, .bg-primary .btn-secondary-outline:active, .bg-primary .btn-secondary-outline:active:focus, .bg-primary .btn-success-outline:hover, .bg-primary .btn-success-outline:active, .bg-primary .btn-success-outline:active:focus, .bg-primary .btn-danger-outline:hover, .bg-primary .btn-danger-outline:active, .bg-primary .btn-danger-outline:active:focus, .bg-primary .btn-warning-outline:hover, .bg-primary .btn-warning-outline:active, .bg-primary .btn-warning-outline:active:focus, .bg-primary .btn-info-outline:hover, .bg-primary .btn-info-outline:active, .bg-primary .btn-info-outline:active:focus, .bg-primary .btn-light-outline:hover, .bg-primary .btn-light-outline:active, .bg-primary .btn-light-outline:active:focus, .bg-primary .btn-dark-outline:hover, .bg-primary .btn-dark-outline:active, .bg-primary .btn-dark-outline:active:focus {
-  color: #f29924;
+  color: #F38B00;
   background-color: #f1f1f1;
   border-color: #f1f1f1;
 }
@@ -11235,7 +11247,7 @@ Buttons
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 .bg-primary .btn-primary:active:focus, .bg-primary .btn-secondary:active:focus, .bg-primary .btn-success:active:focus, .bg-primary .btn-danger:active:focus, .bg-primary .btn-warning:active:focus, .bg-primary .btn-info:active:focus, .bg-primary .btn-light:active:focus, .bg-primary .btn-dark:active:focus, .bg-primary .btn-primary-outline:active:focus, .bg-primary .btn-secondary-outline:active:focus, .bg-primary .btn-success-outline:active:focus, .bg-primary .btn-danger-outline:active:focus, .bg-primary .btn-warning-outline:active:focus, .bg-primary .btn-info-outline:active:focus, .bg-primary .btn-light-outline:active:focus, .bg-primary .btn-dark-outline:active:focus {
-  color: #f29924 !important;
+  color: #F38B00 !important;
   background-color: #f1f1f1 !important;
   border-color: #f1f1f1 !important;
 }
@@ -11244,7 +11256,7 @@ Buttons
 }
 
 .bg-secondary {
-  background-color: #506671 !important;
+  background-color: #072930 !important;
 }
 .bg-secondary h1, .bg-secondary h2, .bg-secondary h3, .bg-secondary h4, .bg-secondary h5, .bg-secondary h6, .bg-secondary a, .bg-secondary p, .bg-secondary .display-1, .bg-secondary .display-2, .bg-secondary .display-3, .bg-secondary .display-4 {
   color: #fff;
@@ -11255,7 +11267,7 @@ Buttons
   border-color: #f1f1f1;
 }
 .bg-secondary .btn-primary:hover, .bg-secondary .btn-primary:active, .bg-secondary .btn-primary:active:focus, .bg-secondary .btn-secondary:hover, .bg-secondary .btn-secondary:active, .bg-secondary .btn-secondary:active:focus, .bg-secondary .btn-success:hover, .bg-secondary .btn-success:active, .bg-secondary .btn-success:active:focus, .bg-secondary .btn-danger:hover, .bg-secondary .btn-danger:active, .bg-secondary .btn-danger:active:focus, .bg-secondary .btn-warning:hover, .bg-secondary .btn-warning:active, .bg-secondary .btn-warning:active:focus, .bg-secondary .btn-info:hover, .bg-secondary .btn-info:active, .bg-secondary .btn-info:active:focus, .bg-secondary .btn-light:hover, .bg-secondary .btn-light:active, .bg-secondary .btn-light:active:focus, .bg-secondary .btn-dark:hover, .bg-secondary .btn-dark:active, .bg-secondary .btn-dark:active:focus, .bg-secondary .btn-primary-outline:hover, .bg-secondary .btn-primary-outline:active, .bg-secondary .btn-primary-outline:active:focus, .bg-secondary .btn-secondary-outline:hover, .bg-secondary .btn-secondary-outline:active, .bg-secondary .btn-secondary-outline:active:focus, .bg-secondary .btn-success-outline:hover, .bg-secondary .btn-success-outline:active, .bg-secondary .btn-success-outline:active:focus, .bg-secondary .btn-danger-outline:hover, .bg-secondary .btn-danger-outline:active, .bg-secondary .btn-danger-outline:active:focus, .bg-secondary .btn-warning-outline:hover, .bg-secondary .btn-warning-outline:active, .bg-secondary .btn-warning-outline:active:focus, .bg-secondary .btn-info-outline:hover, .bg-secondary .btn-info-outline:active, .bg-secondary .btn-info-outline:active:focus, .bg-secondary .btn-light-outline:hover, .bg-secondary .btn-light-outline:active, .bg-secondary .btn-light-outline:active:focus, .bg-secondary .btn-dark-outline:hover, .bg-secondary .btn-dark-outline:active, .bg-secondary .btn-dark-outline:active:focus {
-  color: #506671;
+  color: #072930;
   background-color: #f1f1f1;
   border-color: #f1f1f1;
 }
@@ -11264,7 +11276,7 @@ Buttons
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 .bg-secondary .btn-primary:active:focus, .bg-secondary .btn-secondary:active:focus, .bg-secondary .btn-success:active:focus, .bg-secondary .btn-danger:active:focus, .bg-secondary .btn-warning:active:focus, .bg-secondary .btn-info:active:focus, .bg-secondary .btn-light:active:focus, .bg-secondary .btn-dark:active:focus, .bg-secondary .btn-primary-outline:active:focus, .bg-secondary .btn-secondary-outline:active:focus, .bg-secondary .btn-success-outline:active:focus, .bg-secondary .btn-danger-outline:active:focus, .bg-secondary .btn-warning-outline:active:focus, .bg-secondary .btn-info-outline:active:focus, .bg-secondary .btn-light-outline:active:focus, .bg-secondary .btn-dark-outline:active:focus {
-  color: #506671 !important;
+  color: #072930 !important;
   background-color: #f1f1f1 !important;
   border-color: #f1f1f1 !important;
 }
