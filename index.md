@@ -32,5 +32,4 @@ page_sections:
   link: 'true'
   link_title: See more about PERL
   link_url: "/about.html"
-
 ---

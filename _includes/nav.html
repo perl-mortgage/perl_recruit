@@ -1,21 +1,25 @@
 <header class="menu-header">
   <div class="container">
-    <div class="menu-logo"><a href="/index.html"><span class="perl-logo"></span></a></div>
-
+    <div class="menu-logo">
+      <a href="/index.html">
+       <span class="perl-logo"></span>
+      </a>
+    </div>
     <nav class="ml-auto">
 			<ul class="menu-secondary-nav">
 				<li>
           <a href="{{ page.apply_link }}" class="btn btn-light" target="_blank">Get Started</a>
         </li>
 			</ul>
-		</nav> <!-- menu-nav -->
-
+		</nav>
     <a class="menu-primary-nav-trigger" href="#">
-      <span class="menu-menu-text"><span class="sr-only">Menu</span></span><span class="menu-menu-icon"></span>
-    </a> <!-- menu-primary-nav-trigger -->
+      <span class="menu-menu-text">
+        <span class="sr-only">Menu</span>
+      </span>
+      <span class="menu-menu-icon"></span>
+    </a>
   </div>
 </header>
-
 <nav>
   <ul class="menu-primary-nav">
     {% for item in site.data.navigation %}

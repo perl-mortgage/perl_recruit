@@ -49,48 +49,27 @@
             Illinois Residential Mortgage Licensee<br />
             NMLS #19186
           </p>
-          {% if page.address %}
-            <h6>Address</h6>
-            <p>
-              {{ page.address}}
-            </p>
-            <h6>Corporate Address</h6>
-            <p>
-              2936 W. Belmont Ave.<br />
-              Chicago, IL 60618
-            </p>
-            {% else %}
-              <h6>Address</h6>
-              <p>
-                2936 W. Belmont Ave.<br />
-                Chicago, IL 60618
-              </p>
-          {% endif %}
         </div>
 
       </div>
 
-      {% if page.layout == "loanofficer_profile" %}
-        <span class="sr-only">Contact PERL Today!</span>
-        {% else %}
-        <div class="row">
-          <div class="col-md-6 col-sm-12 ml-auto">
-            <h6>We're Social!</h6>
-              <ul class="footer-social-list">
-                {% for item in site.data.social %}
-                  <li>
-                    <a href="{{ item.url }}" target="_blank">
-                      <span class="icon">
-                        <i class="fab fa-{{ item.icon }}"></i>
-                      </span>
-                      <span class="sr-only">PERL Mortgage {{ item.title }}</span>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-          </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 ml-auto">
+          <h6>We're Social!</h6>
+            <ul class="footer-social-list">
+              {% for item in site.data.social %}
+                <li>
+                  <a href="{{ item.url }}" target="_blank">
+                    <span class="icon">
+                      <i class="fab fa-{{ item.icon }}"></i>
+                    </span>
+                    <span class="sr-only">PERL Mortgage {{ item.title }}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
         </div>
-      {% endif %}
+      </div>
     </div>
   </div>
 </footer>
