@@ -1,5 +1,5 @@
 ---
-layout: section-nav
+layout: blocks
 page_sections:
 -   template: intro-header
     block: intro-header
