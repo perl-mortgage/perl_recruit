@@ -29,6 +29,8 @@ page_sections:
   locations: 39
   employees: 400+
   states: 35
-  link: Read more about who we are
+  link: 'true'
+  link_title: See more about PERL
+  link_url: /about.html
 
 ---

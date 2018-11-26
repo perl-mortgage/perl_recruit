@@ -31,11 +31,11 @@
                             <h6>States</h6>
                         </div>
                     </div>
-                    {% if section.link != 'null' %}
+                    {% if section.link != 'false' %}
                     <div class="row">
                         <div class="col-12">
                             <p>
-                                <a href="{{ section.link_url }}" class="icon-link icon-arrow-link">{{ section.link }}</a>
+                                <a href="{{ section.link_url }}" class="icon-link icon-arrow-link">{{ section.link_title }}</a>
                             </p>
                         </div>
                     </div>
