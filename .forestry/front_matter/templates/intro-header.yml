@@ -1,0 +1,44 @@
+---
+label: intro-header
+hide_body: false
+is_partial: true
+display_field: home_page_introduction
+fields:
+- type: text
+  name: home_page_introduction
+  label: Home Page Introduction
+- type: text
+  default: intro-header
+  config:
+    required: true
+  hidden: true
+  name: block
+  label: block
+- type: text
+  label: Title
+  name: title
+  description: Introduction
+  default: Introduction
+  hidden: true
+  config:
+    required: true
+- type: text
+  name: section_id
+  label: Section ID
+  config:
+    required: true
+  default: Intro
+  hidden: true
+- type: file
+  name: featured_image
+  label: Featured Image
+- type: text
+  name: featured_video
+  label: Featured Video
+  description: VIMEO links only!!!!!
+- type: text
+  name: headline
+  label: Headline
+- type: text
+  name: tagline
+  label: Tagline
