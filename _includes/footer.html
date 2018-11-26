@@ -1,0 +1,118 @@
+<footer class="global-footer pt-md bg-secondary">
+  <div class="container-fluid">
+    <div class="container pb-md">
+      <div class="row">
+        <div class="col-12">
+          <p>
+            <span class="perl-logo"></span>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-4 col-sm-12">
+          <p>
+            The information contained on this site is complete to the best of our knowledge and ability. While we will strive to update our website as often as we can, we are not responsible for any inadvertent inaccuracies, errors, typos or omissions.
+          </p>
+          <p>
+            If you believe that there is an error on our site or you have any questions regarding our products, please contact us.
+          </p>
+          <p>
+            We value your business and want to hear from you.
+          </p>
+        </div>
+
+        <div class="ml-auto col-md-3 col-sm-12">
+          <h6>Navigation</h6>
+          <ul class="footer-list">
+            {% for item in site.data.navigation %}
+              <li>
+                <a href="{{ item.link }}">{{ item.title }}</a>
+              </li>
+            {% endfor %}
+            <li>
+              <a href="/licensing.html">Licensing</a>
+            </li>
+            <li>
+              <a href="/privacypolicy.html">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="http://www.nmlsconsumeraccess.org/" target="_blank">NMLS Consumer Access</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+          <h6>PERL Mortgage</h6>
+          <p>
+            Equal Housing Lender<br />
+            Illinois Residential Mortgage Licensee<br />
+            NMLS #19186
+          </p>
+          {% if page.address %}
+            <h6>Address</h6>
+            <p>
+              {{ page.address}}
+            </p>
+            <h6>Corporate Address</h6>
+            <p>
+              2936 W. Belmont Ave.<br />
+              Chicago, IL 60618
+            </p>
+            {% else %}
+              <h6>Address</h6>
+              <p>
+                2936 W. Belmont Ave.<br />
+                Chicago, IL 60618
+              </p>
+          {% endif %}
+        </div>
+
+      </div>
+
+      {% if page.layout == "loanofficer_profile" %}
+        <span class="sr-only">Contact PERL Today!</span>
+        {% else %}
+        <div class="row">
+          <div class="col-md-6 col-sm-12 ml-auto">
+            <h6>We're Social!</h6>
+              <ul class="footer-social-list">
+                {% for item in site.data.social %}
+                  <li>
+                    <a href="{{ item.url }}" target="_blank">
+                      <span class="icon">
+                        <i class="fab fa-{{ item.icon }}"></i>
+                      </span>
+                      <span class="sr-only">PERL Mortgage {{ item.title }}</span>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
+<footer class="sub-footer py-sm bg-lt-gray">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-12 d-flex align-items-center">
+          <p>
+            &copy; 2018 PERL Mortgage
+          </p>
+        </div>
+        <div class="ml-auto col-md-3 col-sm-12 d-flex align-items-center">
+          <div class="EHL_logo mr-3">
+            <img src="../assets/logos/EHL_logo.svg" alt='Equal Housing Lender' />
+          </div>
+          <div class="BBB_Logo">
+            <a href="https://www.bbb.org/chicago/business-reviews/mortgage-banker/perl-mortgage-inc-in-chicago-il-80000303/#sealclick" target="_blank" rel="nofollow" style="position: relative; overflow: hidden;"><img src="https://seal-chicago.bbb.org/seals/darkgray-seal-120-61-bbb-80000303.png" style="border: 0;" alt="Perl Mortgage, Inc. BBB Business Review"><span class="image-overlay overlay-type-extern" style="display: none;"><span class="image-overlay-inside"></span></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

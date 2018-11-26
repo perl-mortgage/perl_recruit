@@ -1,0 +1,20 @@
+<header class="block-intro-header" id="{{ section.id }}">
+    <div class="container-fluid position-relative p-0 bg-cover" style="background-image: url('{{ section.featured_image }}')">
+        <div class="container-fluid overlay minh-100vh d-flex align-items-center">
+                {% include grid-overlay.html %}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <p class="h6">{{ section.tagline }}</p>
+                        <h1>{{ section.headline }}</h1>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 mt-md">
+                    <a href="{{ section.featured_video }}" class="video-modal play-button play-button-white" data-start="34" data-end="345">
+                        Play Video
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

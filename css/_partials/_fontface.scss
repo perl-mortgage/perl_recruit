@@ -1,0 +1,181 @@
+
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-Semibold.eot');
+    src: url('../assets/fonts/ATCArquette-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-Semibold.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-Semibold.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-Semibold.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-Semibold.svg#ATCArquette-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-Black.eot');
+    src: url('../assets/fonts/ATCArquette-Black.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-Black.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-Black.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-Black.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-Black.svg#ATCArquette-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-Light.eot');
+    src: url('../assets/fonts/ATCArquette-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-Light.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-Light.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-Light.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-Light.svg#ATCArquette-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-Medium.eot');
+    src: url('../assets/fonts/ATCArquette-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-Medium.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-Medium.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-Medium.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-Medium.svg#ATCArquette-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-BlackItalic.eot');
+    src: url('../assets/fonts/ATCArquette-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-BlackItalic.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-BlackItalic.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-BlackItalic.svg#ATCArquette-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-Regular.eot');
+    src: url('../assets/fonts/ATCArquette-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-Regular.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-Regular.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-Regular.svg#ATCArquette-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-LightItalic.eot');
+    src: url('../assets/fonts/ATCArquette-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-LightItalic.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-LightItalic.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-LightItalic.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-LightItalic.svg#ATCArquette-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Knockout';
+    src: url('../assets/fonts/Knockout-HTF27-JuniorBantamwt.eot');
+    src: url('../assets/fonts/Knockout-HTF27-JuniorBantamwt.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Knockout-HTF27-JuniorBantamwt.woff2') format('woff2'),
+        url('../assets/fonts/Knockout-HTF27-JuniorBantamwt.woff') format('woff'),
+        url('../assets/fonts/Knockout-HTF27-JuniorBantamwt.ttf') format('truetype'),
+        url('../assets/fonts/Knockout-HTF27-JuniorBantamwt.svg#Knockout-HTF27-JuniorBantamwt') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-BoldItalic.eot');
+    src: url('../assets/fonts/ATCArquette-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-BoldItalic.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-BoldItalic.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-BoldItalic.svg#ATCArquette-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-MediumItalic.eot');
+    src: url('../assets/fonts/ATCArquette-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-MediumItalic.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-MediumItalic.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-MediumItalic.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-MediumItalic.svg#ATCArquette-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-SemiboldItalic.eot');
+    src: url('../assets/fonts/ATCArquette-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-SemiboldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-SemiboldItalic.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-SemiboldItalic.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-SemiboldItalic.svg#ATCArquette-SemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-RegularItalic.eot');
+    src: url('../assets/fonts/ATCArquette-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-RegularItalic.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-RegularItalic.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-RegularItalic.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-RegularItalic.svg#ATCArquette-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-Extralight.eot');
+    src: url('../assets/fonts/ATCArquette-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-Extralight.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-Extralight.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-Extralight.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-Extralight.svg#ATCArquette-Extralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-Bold.eot');
+    src: url('../assets/fonts/ATCArquette-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-Bold.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-Bold.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-Bold.svg#ATCArquette-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATC Arquette';
+    src: url('../assets/fonts/ATCArquette-ExtralightItalic.eot');
+    src: url('../assets/fonts/ATCArquette-ExtralightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ATCArquette-ExtralightItalic.woff2') format('woff2'),
+        url('../assets/fonts/ATCArquette-ExtralightItalic.woff') format('woff'),
+        url('../assets/fonts/ATCArquette-ExtralightItalic.ttf') format('truetype'),
+        url('../assets/fonts/ATCArquette-ExtralightItalic.svg#ATCArquette-ExtralightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}

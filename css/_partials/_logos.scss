@@ -1,0 +1,22 @@
+.perl-logo {
+  width: 100px;
+  height: 60px;
+  display: block;
+  background-image: url('../assets/logos/Perl-Tagline.svg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: $breakpoint-lg) {
+    width: 35px;
+    height: 35px;
+    background-image: url('../assets/logos/Perl-Letter.svg');
+    border-radius: 50%;
+  }
+
+}
+
+.EHL_logo {
+  width: 30px;
+  height: 30px;
+}

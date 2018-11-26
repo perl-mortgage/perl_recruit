@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<!-- =============================
+  Branch Header
+============================= -->
+<header class="branch-header has-parallax bg-black">
+  <div class="container-fluid p-0 parallax" style="background-image: url('{{ page.branch_image }}');">
+    <div class="container-fluid overlay minh-75vh py-lg d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12 text-center section-title ml-auto mr-auto">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="branch-contact bg-lt-gray py-sm">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <h6 class="fc-dk-gray">Address</h6>
+          <p>
+            <a href="{{ page.google_map }}">
+              {{ page.address}}
+            </a>
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <h6 class="fc-dk-gray">Contact</h6>
+          <p>
+            <span class="fw-500 fc-dk-gray">Phone Number</span> <a href="tel:{{ page.phone_number | remove: '.' }}">{{ page.phone_number }}</a>
+          </p>
+          <p>
+            <span class="fw-500 fc-dk-gray">Email</span>
+            <a href="mailto:{% for loanofficers in site.loanofficers %}{% if page.branch-parent == loanofficers.branch %}{% if loanofficers.branch_manager == 'true' %}{{ loanofficers.email }}{% else %}{{ site.email }}{% endif %}{% endif %}{% endfor %}">
+              {% for loanofficers in site.loanofficers %}
+                {% if page.branch-parent == loanofficers.branch %}
+                  {% if loanofficers.branch_manager == 'true' %}
+                    {{ loanofficers.email }}
+                  {% else %}
+                    {{ site.email }}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </a>
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <h6 class="fc-dk-gray">Hours of Operation</h6>
+          <p>
+            {{ site.hours }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- =============================
+  End branch header
+============================= -->
+
+
+<!-- =============================
+  Customizable Content
+============================= -->
+{% for section in page.page_sections %}
+  {% include block-{{ section.block }}.html %}
+{% endfor %}
+<!-- =============================
+  End Customizable Content
+============================= -->
+
+
+<!-- =============================
+  Branch footer
+============================= -->
+
+<!-- =============================
+  End branch footer
+============================= -->

@@ -1,0 +1,63 @@
+/*=================================
+The order of this CSS is critical. Bootstrap must always remain first, because the following .scss files do override some of Bootstrap's initial styles. Blocks section must come after all of the "_partials" imports. They rely on those imports and sometimes override them depending on the need of that particular block.
+===================================*/
+/*=================================
+Global Typography Font Smoothing — Do not remove
+===================================*/
+* {
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@import "_partials/_fontface.scss";
+
+/*=================================
+Global Styles - This is the table of contents for the global styles. It's broken out into separate .scss files for ease of modification and locating different functions and formating.
+
+1. Bootstrap
+2. Variables
+3. Mixins
+4. Logos
+5. Typography
+6. Spacing
+7. Navigation
+8. Media, Videos, Pictures
+9. Buttons
+10. Forms
+11. Backgrounds
+12. Heights
+===================================*/
+@import "_partials/_bootstrap.scss";
+@import "_partials/_variables.scss";
+@import "_partials/_mixins.scss";
+@import "_partials/_logos.scss";
+@import "_partials/_type.scss";
+@import "_partials/_spacing.scss";
+@import "_partials/_navigations.scss";
+@import "_partials/_media.scss";
+@import "_partials/_buttons.scss";
+@import "_partials/_forms.scss";
+@import "_partials/_backgrounds.scss";
+@import "_partials/_heights.scss";
+
+
+/*=================================
+Block Styles - This is the table of contents for the block styles. It's broken out into separate .scss files for ease of modification and locating different functions and formating.
+
+1. Global
+2. Loan Officers
+3. Branches
+4. Leadership
+5. Blog
+===================================*/
+@import "_blocks/_global.scss";
+@import "_blocks/_loanofficers.scss";
+@import "_blocks/_branches.scss";
+@import "_blocks/_leadership.scss";
+@import "_blocks/_blog.scss";
+
+/*=================================
+
+If for some reason you need to modify a lot use this file as much as possible to override the styles above. This will help keep the overall Parent theme clean.
+
+===================================*/
+@import "_partials/_overrides.scss";

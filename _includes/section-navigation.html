@@ -1,0 +1,20 @@
+<nav class="scrolling-navigation">
+    <div id="menu-center">
+        <ul>
+        {% for section in page.page_sections %}
+        <li>
+            <a class="{% if forloop.first %}active{% endif %}" href="#{{ section.id }}">
+            <div class="indicator">
+                <div class="number">
+                    <p class="h6 m-0">0{{ forloop.index }}</p>
+                </div>
+                <div class="title">
+                    <p>{{ section.title }}</p>
+                </div>
+            </div>
+            </a>
+        </li>
+        {% endfor %}
+        </ul>
+    </div>
+</nav>

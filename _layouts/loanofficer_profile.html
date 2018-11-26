@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<!-- =============================
+  Loan Officer Header
+============================= -->
+<header class="loan-officer-header bg-black has-parallax">
+  <div class="container-fluid p-0 parallax" style="background-image: url('{{ page.header_image }}')">
+    <div class="container-fluid overlay minh-100vh d-flex align-items-center py-lg">
+      <div class="container">
+        <!-- =============================
+          Contact row
+        ============================= -->
+        <div class="row">
+          <div class="ml-auto col-md-6 col-sm-12">
+            <div class="headshot bg-primary">
+              <img src="{{ page.headshot }}" alt="{{ page.title }} headshot" />
+            </div>
+          </div>
+          <div class="mr-auto col-md-6 col-sm-12 text-md-left text-center">
+            <h1>{{ page.title }}</h1>
+
+            <h5><em>{{ page.lo_title }}</em></h5>
+
+            <p>{{ page.address }}</p>
+
+            {% if page.phone_number %}
+              <p><a href="tel:{{ page.phone_number }}">{{ page.phone_number }}</a></p>
+            {% endif %}
+
+            {% if page.fax %}
+              <p>{{ page.fax }}</p>
+            {% endif %}
+
+            {% if page.cell %}
+              <p>{{ page.cell }}</p>
+            {% endif %}
+
+            {% if page.email %}
+              <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+            {% endif %}
+            <p class="small">{{ page.nmls }}</p>
+          </div>
+        </div>
+        <!-- =============================
+          End contact row
+        ============================= -->
+
+
+        <!-- =============================
+          Social row
+        ============================= -->
+        <div class="row">
+
+        </div>
+        <!-- =============================
+          End social row
+        ============================= -->
+
+        <!-- =============================
+          Button row
+        ============================= -->
+        <div class="row">
+          <div class="col-12 text-center py-md">
+            <a href="{{ page.apply_link }}" class="btn btn-primary" target="_blank">Apply Now</a>
+            <a href="#free-rate-quote" class="btn btn-primary">Free Rate Quote</a>
+            <a href="#contact" class="btn btn-primary">Contact</a>
+          </div>
+        </div>
+        <!-- =============================
+          End button row
+        ============================= -->
+      </div>
+    </div>
+  </div>
+</header>
+<!-- =============================
+  End Loan Officer Header
+============================= -->
+
+
+
+
+<!-- =============================
+  Customizable Content
+============================= -->
+{% for section in page.page_sections %}
+  {% include block-{{ section.block }}.html %}
+{% endfor %}
+<!-- =============================
+  End Customizable Content
+============================= -->
+<!-- =============================
+  Loan Officer Footer
+============================= -->
+
+
+<!-- =============================
+  End Loan Officer Footer
+============================= -->

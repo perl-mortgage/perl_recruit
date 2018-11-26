@@ -1,0 +1,110 @@
+/*=================================
+Buttons
+===================================*/
+.btn {
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-radius: 0;
+  border: 2px solid;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.0rem rgba(0, 123, 255, 0.0);
+}
+
+.btn-primary {
+  @include btn-link($primary,$white);
+}
+
+.btn-secondary {
+  @include btn-link($secondary,$white);
+}
+
+.btn-success {
+  @include btn-link(#28a745,$white);
+}
+
+.btn-danger {
+  @include btn-link(#dc3545,$white);
+}
+
+.btn-warning {
+  @include btn-link(#ffc107,$white);
+}
+
+.btn-info {
+  @include btn-link($md-gray,$lt-gray);
+}
+
+.btn-light {
+  @include btn-link($lt-gray,$primary);
+}
+
+.btn-dark {
+  @include btn-link($dk-gray,$lt-gray);
+}
+
+.btn-primary-outline {
+  @include btn-link($primary,$white);
+}
+
+.btn-secondary-outline {
+  @include btn-link($secondary,$white);
+}
+
+.btn-success-outline {
+  @include btn-link(#28a745,$white);
+}
+
+.btn-danger-outline {
+  @include btn-link(#dc3545,$white);
+}
+
+.btn-warning-outline {
+  @include btn-link(#ffc107,$white);
+}
+
+.btn-info-outline {
+  @include btn-link($md-gray,$lt-gray);
+}
+
+.btn-light-outline {
+  @include btn-link($lt-gray,$primary);
+}
+
+.btn-dark-outline {
+  @include btn-link($dk-gray,$lt-gray);
+}
+
+.play-button {
+  font-family: $body;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+  color: $md-gray;
+  position: relative;
+  margin-left: 35px;
+  &:before {
+    height: 40px;
+    width: 40px;
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: -100%;
+    display: block;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.play-button-white {
+  &:before {
+    background-image: url('../assets/icons/playbuttonwhite.svg');
+  }
+}

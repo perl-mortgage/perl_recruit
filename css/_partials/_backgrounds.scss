@@ -1,0 +1,81 @@
+.bg-primary {
+  background-color: $primary !important;
+  @include bg-type($white);
+  @include bg-btn($lt-gray,$primary);
+  hr {
+    border-top: 2px solid $white;
+  }
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+  @include bg-type($white);
+  @include bg-btn($lt-gray,$secondary);
+}
+
+.bg-black {
+  background-color: $black !important;
+  @include bg-type($white);
+  @include bg-btn($lt-gray,$black);
+  hr {
+    border-top: 2px solid $white;
+  }
+}
+
+.bg-dk-gray {
+  background-color: $dk-gray !important;
+  @include bg-type($white);
+  @include bg-btn($lt-gray,$dk-gray);
+  hr {
+    border-top: 2px solid $white;
+  }
+}
+
+.bg-md-gray {
+  background-color: $md-gray !important;
+  @include bg-type($white);
+  @include bg-btn($lt-gray,$md-gray);
+  hr {
+    border-top: 2px solid $white;
+  }
+}
+
+.bg-lt-gray {
+  background-color: $lt-gray !important;
+}
+
+.bg-white {
+  background-color: $white !important;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,.3);
+  height: 100%;
+  width: 100%;
+  @include bg-type(white);
+}
+
+.grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .2;
+  @media screen and (max-width: $breakpoint-md) {
+    display: none;
+  }
+}
+
+.parallax {
+  background-size: cover;
+}
+
+.has-parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,55 @@
+
+<section class="block-branch-officers bg-lt-gray">
+  <div class="container-fluid py-lg">
+    <div class="container">
+      <div class="row py-sm text-center section-title">
+        <div class="col-12">
+          <h2>Your local loan officers</h2>
+        </div>
+      </div>
+      <div class="row">
+        {% for loanofficers in site.loanofficers %}
+          {% if page.branch-parent == loanofficers.branch %}
+            <div class="mt-md ml-auto mr-auto col-md-4 col-sm-12 d-flex align-items-center">
+              <div class="bg-white py-xs">
+                <div class="container">
+                  <div class="row">
+
+
+                    <div class="col-12 py-xs">
+                      <div class="headshot">
+                        <a href="{{ loanofficers.url }}">
+                          <img src="{{ loanofficers.headshot }}" alt="{{ loanofficers.title }} Headshot" />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-12 text-center">
+                      <h4 class="ff-display fc-secondary">{{ loanofficers.title }}</h4>
+                      <p>
+                        <em class="ff-display fc-dk-gray">{{ loanofficers.lo_title }}</em></p>
+                      </p>
+                      <p>
+                        <a href="tel:{{ loanofficers.phone_number | remove: '.'}}">{{ loanofficers.phone_number }}</a>
+                      </p>
+                      <p>
+                        <a href="mailto:{{ loanofficers.email }}">{{ loanofficers.email }}</a>
+                      </p>
+                      <p>
+                        <a href="{{ loanofficers.url }}" class="btn btn-secondary mt-xs mb-xs">View Page</a>
+                        <a href="{{ loanofficers.apply_link }}" class="btn btn-secondary mt-xs mb-xs">Apply Now</a>
+                      </p>
+                      <p>
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

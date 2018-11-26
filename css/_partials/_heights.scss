@@ -1,0 +1,99 @@
+/*=================================
+Heights - Small
+===================================*/
+.minh-25vh {
+  min-height: 25vh;
+  height: 100%;
+}
+
+.minh-50vh {
+  min-height: 50vh;
+  height: 100%;
+}
+
+.minh-75vh {
+  min-height: 75vh;
+  height: 100%;
+}
+
+.minh-100vh {
+  min-height: 100vh;
+  height: 100%;
+}
+
+
+/*=================================
+Heights - Medium
+===================================*/
+@media screen and (min-width: $breakpoint-md) {
+  .minh-md-25vh {
+    min-height: 25vh;
+    height: 100%;
+  }
+
+  .minh-md-50vh {
+    min-height: 50vh;
+    height: 100%;
+  }
+
+  .minh-md-75vh {
+    min-height: 75vh;
+    height: 100%;
+  }
+
+  .minh-md-100vh {
+    min-height: 100vh;
+    height: 100%;
+  }
+}
+
+
+/*=================================
+Heights - Large
+===================================*/
+@media screen and (min-width: $breakpoint-lg) {
+  .minh-lg-25vh {
+    min-height: 25vh;
+    height: 100%;
+  }
+
+  .minh-lg-50vh {
+    min-height: 50vh;
+    height: 100%;
+  }
+
+  .minh-lg-75vh {
+    min-height: 75vh;
+    height: 100%;
+  }
+
+  .minh-lg-100vh {
+    min-height: 100vh;
+    height: 100%;
+  }
+}
+
+/*=================================
+Heights - Extra Large
+===================================*/
+@media screen and (min-width: $breakpoint-xl) {
+  .minh-xl-25vh {
+    min-height: 25vh;
+    height: 100%;
+  }
+
+  .minh-xl-50vh {
+    min-height: 50vh;
+    height: 100%;
+  }
+
+  .minh-xl-75vh {
+    min-height: 75vh;
+    height: 100%;
+  }
+
+  .minh-xl-100vh {
+    min-height: 100vh;
+    height: 100%;
+  }
+}

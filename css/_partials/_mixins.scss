@@ -1,0 +1,57 @@
+// Buttons
+@mixin btn-link($color,$color-2) {
+  color: $color;
+  background-color: transparent;
+  border-color: $color;
+
+  &:hover, &:active, &:active:focus {
+    color: $color-2;
+    background-color: $color;
+    border-color: $color;
+  }
+
+  &:focus, &.focus {
+    box-shadow: none !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+
+  &:active:focus {
+    color: $color-2 !important;
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+
+}
+
+
+// Typography Modifier for Colored Backgrounds
+@mixin bg-type($color) {
+  h1, h2, h3, h4, h5, h6, a, p, .display-1, .display-2, .display-3, .display-4 {
+    color: $color;
+  }
+}
+
+@mixin bg-btn($color, $color-2) {
+  .btn-primary, .btn-secondary, .btn-success, .btn-danger, .btn-warning, .btn-info, .btn-light, .btn-dark, .btn-primary-outline, .btn-secondary-outline, .btn-success-outline, .btn-danger-outline, .btn-warning-outline, .btn-info-outline, .btn-light-outline, .btn-dark-outline  {
+    color: $color;
+    background-color: transparent;
+    border-color: $color;
+
+    &:hover, &:active, &:active:focus {
+      color: $color-2;
+      background-color: $color;
+      border-color: $color;
+    }
+
+    &:focus, &.focus {
+      box-shadow: none !important;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+    }
+
+    &:active:focus {
+      color: $color-2 !important;
+      background-color: $color !important;
+      border-color: $color !important;
+    }
+  }
+}

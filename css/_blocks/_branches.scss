@@ -1,0 +1,15 @@
+.block-branch-officers {
+
+  .headshot {
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    border: 2px solid $lt-gray;
+    transition: .3s ease-in-out;
+    &:hover {
+      border: 2px solid $primary;
+    }
+  }
+
+}

@@ -1,0 +1,51 @@
+<section class="block-branch-manager bg-black">
+  <div class="container-fluid p-0" style="background-image: url('{{ page.branch_image }}');">
+    <div class="container-fluid overlay d-flex align-items-center minh-75vh">
+          {% for loanofficers in site.loanofficers %}
+            {% if page.branch-parent == loanofficers.branch %}
+              {% if loanofficers.branch_manager == 'true' %}
+                <div class="container py-lg">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                      <div class="headshot">
+                        <img src="{{ loanofficers.headshot }}" />
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-center text-md-left">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-12">
+                            <h2>{{ loanofficers.title }}</h2>
+                            <h5 class="ff-display"><em>{{ loanofficers.lo_title }}</em></h5>
+                            <hr />
+                            <p>
+                              <span class="fw-600">Address:</span><br />
+                              {{ loanofficers.address }}
+                            </p>
+                            <p>
+                              <span class="fw-600">
+                                Phone:
+                              </span><br />
+                              <a href="tel:{{ loanofficers.phone_number | remove: '.'}}">{{ loanofficers.phone_number }}</a>
+                            </p>
+                            <p>
+                              <span class="fw-600">
+                                Email:
+                              </span><br />
+                              <a href="mailto:{{ loanofficers.email'}}">{{ loanofficers.email }}</a>
+                            </p>
+                            <p>
+                              <a href="{{ loanofficers. url }}" class="btn btn-primary">View Page</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+    </div>
+  </div>
+</section>
