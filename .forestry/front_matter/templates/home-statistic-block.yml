@@ -10,7 +10,7 @@ fields:
   default: Home Statistic Block
   hidden: true
   config:
-    required: true
+    required: false
   description: Goes here
 - type: textarea
   name: left_side
