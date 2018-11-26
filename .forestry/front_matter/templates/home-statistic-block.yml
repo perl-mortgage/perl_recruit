@@ -1,0 +1,49 @@
+---
+label: home-statistic-block
+hide_body: false
+is_partial: true
+display_field: section_title
+fields:
+- type: text
+  label: Section Title
+  name: section_title
+  default: Home Statistic Block
+  hidden: true
+  config:
+    required: true
+- type: textarea
+  name: left_side
+  label: Left Side Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  description: This is a basic text block that you can write content in.
+- type: textarea
+  name: right_side
+  label: Right Side Content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: This is a basic text block that you can write content in.
+- type: text
+  label: Locations
+  name: locations
+- type: text
+  name: employees
+  label: Employees
+- type: text
+  name: states
+  label: States
+- type: boolean
+  name: link
+  label: Section link
+  description: Toggle this true if you want a link to appear.
+  default: false
+- type: text
+  name: link_title
+  label: Link Title
+- type: text
+  name: link_url
+  label: Link URL
