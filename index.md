@@ -33,4 +33,10 @@ page_sections:
   link: 'true'
   link_title: See more about PERL
   link_url: "/about.html"
+  section_title: Statistic Block
+has_page_description: false
+description: ''
+has_page_keywords: false
+keywords: ''
+
 ---
