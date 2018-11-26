@@ -14,7 +14,6 @@ plugins:
   - jekyll-feed
 
 
-
 collections:
   careers:
     output: true
