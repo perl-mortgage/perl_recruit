@@ -23,14 +23,14 @@ page_sections:
     lender, combined with quick turnarounds, personalized service and unmatched integrity
     that has won us the loyalty of customers who return to us time and again for their
     financing needs.</p>"
-  right_side: "#### When it comes to both our borrowers and our employees, we are
-    at the forefront of innovation. We are curious and driven to exceed our borrowers’
-    expectations."
+  right_side: "<h4>When it comes to both our borrowers and our employees, we are at
+    the forefront of innovation. We are curious and driven to exceed our borrowers’
+    expectations.</h4>"
   locations: 39
   employees: 400+
   states: 35
   link: 'true'
   link_title: See more about PERL
-  link_url: /about.html
+  link_url: "/about.html"
 
 ---
