@@ -1,5 +1,6 @@
-- description: 'PERL Mortgage is proud to serve communities in more than 30 states from coast to coast, and we look forward to continued national growth. Funding more than $1 billion in mortgage loans, PERL is consistently ranked as a Top 100 Mortgage Lender in the country by Mortgage Executive Magazine and Scotsman Guide.'
-
-- keywords: 'Chicago, Mortgage, Lender, Recruiting, Real Estate, Broker, Homebuyer, Home, House, About PERL Mortgage, PERL, Your Lender for Life, Ken Perlmutter, Ryan Underwood'
-
-- NMLS: 'NMLS #19186' 
+- item: Description
+  description: 'PERL Mortgage is proud to serve communities in more than 30 states from coast to coast, and we look forward to continued national growth. Funding more than $1 billion in mortgage loans, PERL is consistently ranked as a Top 100 Mortgage Lender in the country by Mortgage Executive Magazine and Scotsman Guide.'
+- item: Keywords
+  keywords: 'Chicago, Mortgage, Lender, Recruiting, Real Estate, Broker, Homebuyer, Home, House, About PERL Mortgage, PERL, Your Lender for Life, Ken Perlmutter, Ryan Underwood'
+- item: NMLS
+  nmls: 'NMLS #19186'
