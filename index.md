@@ -12,6 +12,7 @@ page_sections:
   featured_video: https://vimeo.com/236812834
 - template: home-statistic-block
   block: home-statistic-block
+  second_section: 'true'
   id: About
   title: Why Perl?
   left_side: "<h3>As a nationally recognized lender, PERL is large enough to serve,

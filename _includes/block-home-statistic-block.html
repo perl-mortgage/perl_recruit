@@ -1,20 +1,11 @@
-<section class="block-home-statistic-block" id="{{ section.id }}">
-    <div class="container">
+<section class="block-home-statistic-blog {% if section.second_section == 'true' %}mt-neg-100{% endif %}">
+    <div class="container bg-white">
         <div class="row">
-            <div class="col-md-6 col-sm-12 py-xl mt-neg-100 bg-secondary d-flex align-items-center">
+            <div class="col-md-7 col-sm-12 py-lg bg-white order-md-2">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 col-sm-12 ml-auto mr-auto">
-                            {{ section.left_side}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 pt-md pb-lg d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                                {{ section.right_side }}
+                        <div class="col-md-10 col-sm-12">
+                            {{ section.right_side }}
                         </div>
                     </div>
                     <div class="row py-sm">
@@ -40,6 +31,15 @@
                         </div>
                     </div>
                     {% endif %}
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12 bg-secondary py-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-11 col-sm-12 ml-auto mr-auto">
+                            {{ section.left_side }}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
