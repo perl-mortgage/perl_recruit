@@ -27,7 +27,7 @@ sections:
   match: "**/*"
 - type: directory
   path: _data
-  label: Data
+  label: Utilities
   create: all
   match: "**/*"
 upload_dir: uploads
