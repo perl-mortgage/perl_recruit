@@ -2,11 +2,12 @@
 label: intro-header
 hide_body: false
 is_partial: true
-display_field: home_page_introduction
+display_field: section_title
 fields:
 - type: text
-  name: home_page_introduction
-  label: Home Page Introduction
+  name: section_title
+  label: Section Title
+  default: Home Page Introduction
 - type: text
   default: intro-header
   config:
@@ -28,7 +29,7 @@ fields:
   config:
     required: true
   default: Intro
-  hidden: true
+  hidden: false
 - type: file
   name: featured_image
   label: Featured Image
