@@ -20,5 +20,17 @@ fields:
   name: page_sections
   description: Your page sections go here. Keep in mind the nomenclature of the blocks
     you're choosing.
+- type: textarea
+  label: Page Description
+  name: description
+  description: This is for SEO purposes. This only appears in the meta tag for description.
+    Simply leave blank and Forestry will input the Site Description from the config.yml
+    file.
+- type: text
+  name: keywords
+  label: Keywords
+  description: This is for SEO purposes. This only appears in the meta tag for Keywords.
+    Simply leave blank and Forestry will input the Site Keywords from the config.yml
+    file.
 pages:
 - index.md
