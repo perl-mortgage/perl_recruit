@@ -19,3 +19,5 @@ fields:
   name: page_sections
   description: Your page sections go here. Keep in mind the nomenclature of the blocks
     you're choosing.
+pages:
+- index.md

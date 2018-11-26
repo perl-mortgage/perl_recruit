@@ -1,6 +1,15 @@
 ---
-layout: section-nav
+layout: blocks
 page_sections:
+- template: intro-header
+  section_title: Home Page Introduction
+  block: intro-header
+  title: Introduction
+  section_id: Intro
+  featured_image: "/uploads/perl_recruit_home.jpg"
+  headline: Perl Mortgage has the blueprints for your success.
+  tagline: Join Perl Mortgage Today
+  featured_video: https://vimeo.com/236812834
 - template: home-statistic-block
   block: home-statistic-block
   id: About
