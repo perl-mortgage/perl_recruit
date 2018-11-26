@@ -20,12 +20,20 @@ fields:
   name: page_sections
   description: Your page sections go here. Keep in mind the nomenclature of the blocks
     you're choosing.
+- type: boolean
+  name: has_page_description
+  label: Has Page Description
+  description: Toggle this true/green to input your own page description.
 - type: textarea
   label: Page Description
   name: description
   description: This is for SEO purposes. This only appears in the meta tag for description.
     Simply leave blank and Forestry will input the Site Description from the config.yml
     file.
+- type: boolean
+  label: Has Page Keywords
+  name: has_page_keywords
+  description: Toggle this true/green to input your own page description.
 - type: text
   name: keywords
   label: Keywords
