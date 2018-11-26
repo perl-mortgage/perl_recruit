@@ -3,19 +3,13 @@
   link: "/index.html"
 - title: About Perl
   link: "/about-us.html"
-- title: Purchase A Home
-  link: "/purchase-a-home.html"
-- title: Refinance
-  link: "/refinance.html"
-- title: Second Home
-  link: "/second-home.html"
-- title: Find A Loan Program
-  link: "/find-a-loan.html"
-- title: Find A Loan Officer Or Branch
-  link: "/find-a-branch.html"
-- title: Our Leadership Team
-  link: "/leadership.html"
-- title: Blog
-  link: "/blog.html"
+- title: Advantages
+  link: "/advantages.html"
+- title: Support
+  link: "/support.html"
+- title: Marketing
+  link: "/marketing.html"
+- title: Openings
+  link: "/careers.html"
 - title: Contact
   link: "/contact.html"
