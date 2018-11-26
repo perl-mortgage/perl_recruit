@@ -11,6 +11,7 @@ fields:
   hidden: true
   config:
     required: true
+  description: Goes here
 - type: textarea
   name: left_side
   label: Left Side Content
