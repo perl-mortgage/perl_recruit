@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/*=================================
-The order of this CSS is critical. Bootstrap must always remain first, because the following .scss files do override some of Bootstrap's initial styles. Blocks section must come after all of the "_partials" imports. They rely on those imports and sometimes override them depending on the need of that particular block.
-===================================*/
-/*=================================
-Global Typography Font Smoothing — Do not remove
-===================================*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Oswald:200,300,400,500,600,700|Playfair+Display:400,400i,700,700i,900,900i|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i");
 * {
   -webkit-font-smoothing: antialiased;
@@ -116,22 +110,6 @@ Global Typography Font Smoothing — Do not remove
   font-weight: 200;
   font-style: italic;
 }
-/*=================================
-Global Styles - This is the table of contents for the global styles. It's broken out into separate .scss files for ease of modification and locating different functions and formating.
-
-1. Bootstrap
-2. Variables
-3. Mixins
-4. Logos
-5. Typography
-6. Spacing
-7. Navigation
-8. Media, Videos, Pictures
-9. Buttons
-10. Forms
-11. Backgrounds
-12. Heights
-===================================*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -11517,42 +11495,5 @@ Heights - Extra Large
     height: 100%;
   }
 }
-/*=================================
-Block Styles - This is the table of contents for the block styles. It's broken out into separate .scss files for ease of modification and locating different functions and formating.
-
-1. Global
-2. Loan Officers
-3. Branches
-4. Leadership
-5. Blog
-===================================*/
-.loan-officer-header h5 {
-  font-family: "Playfair Display", serif;
-}
-.loan-officer-header .btn.btn-primary {
-  min-width: 200px;
-  margin: 1rem;
-}
-.loan-officer-header p {
-  font-weight: 600;
-}
-
-.block-branch-officers .headshot {
-  margin-left: auto;
-  margin-right: auto;
-  height: 150px;
-  width: 150px;
-  border: 2px solid #f1f1f1;
-  transition: 0.3s ease-in-out;
-}
-.block-branch-officers .headshot:hover {
-  border: 2px solid #f29924;
-}
-
-/*=================================
-
-If for some reason you need to modify a lot use this file as much as possible to override the styles above. This will help keep the overall Parent theme clean.
-
-===================================*/
 
 /*# sourceMappingURL=style.css.map */
