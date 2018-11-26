@@ -1,6 +1,6 @@
 title: Discover PERL Mortgage
 email: runderwood@perlmortgage.com
-description: This is a jekyll theme for static sites for PERL Mortgage. It's built using Bootstrap CSS framework, Jekyll Static Site Builder, and an easily be tied into Forestry.io of a CMS
+author: Ryan Underwood
 baseurl: ""
 url: ""
 
@@ -9,10 +9,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-
-phone_number: 1.888.202.7490
-apply_link: https://perlmortgage.mortgage-application.net/webapp/start.aspx
-hours: Monday-Friday&colon; 8&colon;00am - 5&colon;00pm<br>Saturday-Sunday&colon; Closed
 
 
 collections:
