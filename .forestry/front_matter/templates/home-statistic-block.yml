@@ -8,10 +8,13 @@ fields:
   label: Section Title
   name: section_title
   default: Home Statistic Block
-  hidden: true
+  hidden: false
   config:
     required: false
-  description: Goes here
+  description: ''
+- type: boolean
+  label: Second Section
+  name: second_section
 - type: textarea
   name: left_side
   label: Left Side Content
