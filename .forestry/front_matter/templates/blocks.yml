@@ -42,3 +42,4 @@ fields:
     file.
 pages:
 - index.md
+- _data/fullstory.yml
