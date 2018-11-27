@@ -20,10 +20,10 @@ page_sections:
     more than 30 states from coast to coast, and we look forward to continued national
     growth. Funding more than $1 billion in mortgage loans, PERL is consistently ranked
     as a Top 100 Mortgage Lender in the country by Mortgage Executive Magazine and
-    Scotsman Guide. We offer the experience, options and competitive rates of a large
-    lender, combined with quick turnarounds, personalized service and unmatched integrity
-    that has won us the loyalty of customers who return to us time and again for their
-    financing needs.</p>"
+    Scotsman Guide. </p><p>We offer the experience, options and competitive rates
+    of a large lender, combined with quick turnarounds, personalized service and unmatched
+    integrity that has won us the loyalty of customers who return to us time and again
+    for their financing needs.</p>"
   right_side: "<h4>When it comes to both our borrowers and our employees, we are at
     the forefront of innovation. We are curious and driven to exceed our borrowers’
     expectations.</h4>"
