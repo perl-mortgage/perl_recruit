@@ -16,8 +16,8 @@ page_sections:
   id: About
   title: Why Perl?
   left_side: "<h4>As a nationally recognized lender, PERL is large enough to serve,
-    small enough to care.</h4><p>PERL Mortgage is proud to serve communities in more
-    than 30 states from coast to coast, and we look forward to continued national
+    small enough to care.</h4><hr><p>PERL Mortgage is proud to serve communities in
+    more than 30 states from coast to coast, and we look forward to continued national
     growth. Funding more than $1 billion in mortgage loans, PERL is consistently ranked
     as a Top 100 Mortgage Lender in the country by Mortgage Executive Magazine and
     Scotsman Guide. We offer the experience, options and competitive rates of a large
